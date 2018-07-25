@@ -1794,7 +1794,7 @@
       "primaryFields" : [ "eid" ]
     },
     "isDefault" : true,
-    "bindCount" : 1,
+    "bindCount" : 2,
     "tableName" : "EMPLOYEE",
     "tableType" : "TABLE",
     "dbSystem" : "HSQLDB",

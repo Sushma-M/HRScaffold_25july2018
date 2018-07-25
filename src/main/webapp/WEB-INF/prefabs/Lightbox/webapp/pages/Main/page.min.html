@@ -1,0 +1,47 @@
+<style id="Main.css">
+</style>
+<script id="Main.js">
+/*
+ * This function will be invoked when any of this prefab's property is changed
+ * @key: property name
+ * @newVal: new value of the property
+ * @oldVal: old value of the property
+ */
+Prefab.onPropertyChange = function(key, newVal, oldVal) {
+    /*
+    switch (key) {
+        case "prop1":
+            // do something with newVal for property 'prop1'
+            break;
+        case "prop2":
+            // do something with newVal for property 'prop2'
+            break;
+    }
+    */
+};
+
+Prefab.onReady = function() {
+    // this method will be triggered post initialization of the prefab.
+};
+</script>
+<script id="Main.variables.json">
+var _MainPage_Variables_ ={
+  "supportedLocale" : {
+    "_id" : "wm-wm.Variable1402640443182",
+    "name" : "supportedLocale",
+    "owner" : "Page",
+    "category" : "wm.Variable",
+    "dataSet" : {
+      "en" : "English"
+    },
+    "type" : "string",
+    "isList" : false,
+    "saveInPhonegap" : false
+  }
+}
+</script>
+<script id="Main.html" type="text/ng-template">
+<wm-prefab-container>
+    <wm-anchor data-lightbox="image-1" margin="unset 0.5em" name="anchor1" iconwidth="100" iconheight="100" iconurl="bind:pic" hyperlink="bind:pic" caption="" hint="bind:title"></wm-anchor>
+</wm-prefab-container>
+</script>

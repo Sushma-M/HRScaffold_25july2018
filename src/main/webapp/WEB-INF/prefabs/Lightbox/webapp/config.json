@@ -1,0 +1,31 @@
+{
+  "displayName" : "Lightbox",
+  "group" : "",
+  "templateUrl" : "/pages/Main/Main.html",
+  "controllerUrl" : "/pages/Main/Main.js",
+  "variablesUrl" : "/pages/Main/Main.variables.json",
+  "iconUrl" : "/resources/images/imagelists/prefab-icon.png",
+  "resources" : {
+    "styles" : [ "/pages/Main/Main.css", "/resources/lightbox.css" ],
+    "scripts" : [ "/resources/lightbox.js" ]
+  },
+  "properties" : {
+    "pic" : {
+      "type" : "string",
+      "displayName" : "Picture",
+      "bindable" : "in-bound",
+      "value" : "resources/images/imagelists/default-image.png",
+      "widget" : "string",
+      "show" : true,
+      "disabled" : false
+    },
+    "title" : {
+      "type" : "string",
+      "displayName" : "Title",
+      "bindable" : "in-bound",
+      "widget" : "string",
+      "show" : true,
+      "disabled" : false
+    }
+  }
+}
